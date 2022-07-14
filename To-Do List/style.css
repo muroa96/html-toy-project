@@ -1,0 +1,25 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+#header{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.title{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+#typebox{
+  text-align: center;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  /* align-items: center; */
+}
