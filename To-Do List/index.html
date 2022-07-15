@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<!-- https://quire.io/compare/best-to-do-list-apps -->
-<html>
-  <head>
-    <title>To-Do list</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="header">
-      <p class="title">To-Do List</p>
-      <p>date</p>
-      <input type="text" , id="typebox">
-    </div>
-    
-    <div id="contents">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container task_list_empty">
+        <header>
+            <div class="theme_toogle">
+                <button class="theme_toogle_btn"></button>
+            </div>
+            <span class="heading">My day</span>
+        </header>
+        <section class="tasks">
+            <ul id="tasksList"></ul>
+        </section>
+        <footer>
+            <form id="new_task_form"> <!--form : input 요소들의 데이터를 웹사이트에 전송-->
+                <input type="text" name="new_task_input" id="new_task_input" placeholder="Create New Task" value="">
+                <button id="new_task_input_btn" type="submit"></button>
+            </form>
+        </footer>
     </div>
-  </body>
+</body>
 </html>
