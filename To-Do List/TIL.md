@@ -43,4 +43,11 @@ Id 선택자나 class선택자로 사용할 수 없는 요소들을 선택하는
 * visible: visible(Default)
 * hidden: hidden(takes up space)
 
+### **querySelector vs querySelectorAll**
+querySelector
+* 가장 첫번째 element를 반환
+* 일치하는 요소가 없는 경우 null 반환
+querySelecorAll
+* 일치하는 모든 element를 반환
+
 ### **@media (미디어 쿼리)**
