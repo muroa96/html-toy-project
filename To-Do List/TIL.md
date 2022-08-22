@@ -87,6 +87,7 @@ x축(왼쪽, 오른쪽)의 내용이 넘칠 때 내용이 잘림(스크롤바X)
 
 
 ###  **position: static;**
+https://www.daleseo.com/css-position/
 * 브라우저 화면에 어떻게 배치되는가를 결정
 * 기본값: static
 * relative, absolute, fixed등으로 변경 간으
@@ -105,3 +106,7 @@ target: 새로운 웹페이지를 여는 명령어
   현재 프레임의 부모 프레임에서 연다.
 * target="_top"
   최상위 프레임에서 연다.
+
+
+### **<input required>**
+반드시 작성해야지 넘어가진다. 작성을 안할시, alert창이 뜬다.
