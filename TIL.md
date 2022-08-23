@@ -110,3 +110,21 @@ target: 새로운 웹페이지를 여는 명령어
 
 ### **<input required>**
 반드시 작성해야지 넘어가진다. 작성을 안할시, alert창이 뜬다.
+
+### **appearance: none;**
+appearance : UI의 기본모양
+none : 위젯의 특정 feature들을 제거함.
+
+### **box-sizing: border-box;**
+box-sizing은 박스의 크기를 어떤 것을 기준으로 계산할지 정하는 속성
+* content-box: 콘텐트 영역을 기준으로 크기를 정함
+* border-box: 테두리를 기준으로 크기를 정함
+* initial: 기본값으로 설정
+* inherit: 부모요소의 속성값을 상속받음.
+
+### **user-select: none;**
+user-select는 요소들의 text가 선택될수 있는지를 설정하는 속성
+* auto(default) : 브라우저가 허락하면 text 선택 가능
+* none: text 선택 불가능
+* text: user에 의해 선택 가능
+* all: double-click이 아닌 one clikck으로 텍스트 선택됨
