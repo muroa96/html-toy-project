@@ -128,3 +128,10 @@ user-select는 요소들의 text가 선택될수 있는지를 설정하는 속�
 * none: text 선택 불가능
 * text: user에 의해 선택 가능
 * all: double-click이 아닌 one clikck으로 텍스트 선택됨
+
+### **<table>표만들기**
+표를 만드는 태그
+* <caption> : table의 제목이나 설명을 작성하는 태그
+* <th></th> : 표의 제목
+* <tr></tr> : 가로줄
+* <td></td> : 셀을 만드는 역할
