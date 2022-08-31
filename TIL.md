@@ -135,3 +135,10 @@ user-select는 요소들의 text가 선택될수 있는지를 설정하는 속�
 * <th></th> : 표의 제목
 * <tr></tr> : 가로줄
 * <td></td> : 셀을 만드는 역할
+
+
+### **flex-wrap: wrap**
+flex 컨테이너에서 flex 아이템을 한 줄로 표시할 지, 또는 행을 되풀이해서 복수의 행으로 표시할이 여부
+* flex-wrap: wrap; : flex 아이템이 flex 컨테이너 안에서 표시되도록 줄바꿈
+* flex-wrap: nowrap: 행의 줄바꿈X, 한 줄로 표시
+* flex-wrap: wrap-reverse: wrap속성+flex 항목의 순서가 역방향
